@@ -8,5 +8,5 @@
             "scripts": ["background.js"]
         }
     },
-    "permissions": ["webview"]
+    "permissions": ["webview","system.cpu"]
  }
