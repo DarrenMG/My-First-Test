@@ -5,7 +5,7 @@
     "version": "0.1",
     "app": {
         "background": {
-            "scripts": ["background.js"]
+            "scripts": ["background.js","message.js"]
         }
     },
     "permissions": ["webview","system.cpu"]
