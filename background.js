@@ -26,7 +26,7 @@ chrome.runtime.onConnect.addListener(function(port){
         });
 
 		// One time fake response for the connect case
-        var request=new Message.Request("connect"); 
+        var request=new Message.Request("connect",null); 
         var response=new Message.Response(request,true,null); 
 		port.postMessage(JSON.stringify(response));
 	}
